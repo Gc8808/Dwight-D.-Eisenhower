@@ -238,3 +238,20 @@ img {
   padding-left: 100px;
   padding-right: 100px;
 }
+.Topspace {
+  padding-top: 80px;
+}
+
+.maininfo {
+  max-width: fit-content;
+  margin: auto; /* Centers the div */
+  padding: 10px;
+  text-align: left;
+  background-color: whitesmoke;
+  border-radius: 15px;
+  transition: border 0.3s ease-in-out; 
+}
+
+.maininfo:hover {
+  border: 2px dotted #333; /* Dotted border on hover */
+}
