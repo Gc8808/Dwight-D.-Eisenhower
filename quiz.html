@@ -22,27 +22,15 @@
     <body>
         <header>
             <!-- place navbar here -->
-            <h1 class="pt-3 colorchange text-center down">Best Achevements</h1>        
+            <h1 class="pt-3 colorchange text-center" ">click the button Below to answer a question</h1>        
         </header>
         <main>
-            
-         <div class="maininfo justify-content-center text-center pt-3 ">
-            <ul>
-                <li>34th President of the U.S. (1953–1961) – Served two terms, focusing on economic growth, Cold War tensions, and infrastructure development.</li>
-                <li>Interstate Highway System – Launched the largest public works project in U.S. history, revolutionizing transportation.</li>
-                <li>Civil Rights Movement – Enforced school desegregation, sending troops to Little Rock, Arkansas (1957) to ensure compliance.</li>
-                <li>NASA and Space Race – Established NASA in 1958, strengthening U.S. space exploration efforts.</li>
-                <li>Ending the Korean War – Negotiated a truce in 1953, bringing peace to the Korean Peninsula.</li>
-                <li>Cold War Policies – Strengthened NATO and promoted the "Eisenhower Doctrine" to combat Soviet influence in the Middle East.</li>
-            </ul>
-            
-         </div>
-         <div class="d-flex justify-content-center">
-            <a href="index.html" class="btn btn-primary px-3 py-2 text-center">Return</a>
-        </div>
+            <button class="btn btn-primary px-3 py-2 text-center" onclick="questionPrompt()">Answer question</button> 
+            <p id="Ans"></p> 
+          
         </main>
         <footer>
-
+  
         </footer>
         <!-- Bootstrap JavaScript Libraries -->
         <script
@@ -56,5 +44,6 @@
             integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
             crossorigin="anonymous"
         ></script>
+  <script src="Quix.js"></script>
     </body>
 </html>
